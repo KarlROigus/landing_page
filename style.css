@@ -1,0 +1,194 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-size: 15px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.first {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    height: 262px;
+    padding-bottom: 50px;
+
+}
+
+.top {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#name {
+    margin-left: -15px;
+}
+
+.down {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.down #introduction {
+    width: 300px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin-right: 17px;
+    border-radius: 25px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+.first p {
+    color: #E5E7EB;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 5px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 25px;
+    width: 140px;
+    border: 0;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+
+.second {
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstinho {
+    height: 100px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondinho {
+    display: flex;
+    flex: 1;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thirdinho {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    gap: 65px;
+}
+
+.thirdinho p {
+    color: #1F2937;
+    font-size: small;
+}
+
+.box {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 15px;
+    padding: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.third {
+    background-color: #E5E7EB;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote-top {
+    flex: 3;
+    color: #1F2937;
+    font-size: 18px;
+    font-style: italic;
+    font-weight:lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#quote-bottom {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+
+}
+
+.fourth {
+    background-color: brown;
+    flex: 1;
+}
+
+.footer {
+    background-color: white;
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
